@@ -1,1 +1,1 @@
-# Hi!, React
+# Hi, React
