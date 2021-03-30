@@ -11,7 +11,10 @@
 .contact-us,
 .sign-up,
 .marketing,
-.consulting {
+.consulting,
+.side1,
+.side2,
+.side3 {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -20,7 +23,7 @@
 }
 
 .home {
-  background-image: url('./images/img-1.jpg');
+  background-image: url('./images/main_image.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
