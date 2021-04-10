@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.Help,
 .contact-us,
 .sign-up,
 .marketing,
@@ -23,7 +23,7 @@
 }
 
 .home {
-  background-image: url('./images/main_image.jpg');
+  background-image: url('./images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,3 +84,4 @@
   color: #fff;
   font-size: 100px;
 }
+

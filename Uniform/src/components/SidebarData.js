@@ -29,7 +29,7 @@ export const SidebarData = [
     cName: 'left-text'
   },
   {
-    title: 'CLEARANCE',
+    title: 'CLEATANCE',
     path: '/messages',
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'left-text'

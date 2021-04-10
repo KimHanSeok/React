@@ -40,9 +40,8 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              SELL SHIRHS
+              Home
             </Link>
-            
           </li>
           <li
             className='nav-item'
@@ -54,28 +53,28 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              HELP <i className='fas fa-caret-down' />
+              SELL SHIRTS <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link
-              to='/products'
+              to='/Help'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              HELP
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/MyAccount'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               MY ACCOUNT
             </Link>
           </li>
-          {/* <li className='nav-item'>
-            <Link
-              to='/contact-us'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Contact Us
-            </Link>
-          </li> */}
           <li>
             <Link
               to='/sign-up'
