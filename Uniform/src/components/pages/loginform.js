@@ -62,7 +62,7 @@ function Sign_up() {
             <animated.div className="forgot-panel" style={loginProps}>
               <Link to="/">Forgot your password</Link>
             </animated.div>
-          </div>
+          </div>``
         </div>
       </div>
     </>
@@ -72,8 +72,8 @@ function Sign_up() {
 function LoginForm() {
   return (
     <React.Fragment>
-      <label for="username">USERNAME</label>
-      <input type="text" id="username" />
+      <label for="id">ID</label>
+      <input type="text" id="id" />
       <label for="password">PASSWORD</label>
       <input type="text" id="password" />
       <input type="submit" value="submit" className="submit" />
@@ -84,15 +84,26 @@ function LoginForm() {
 function RegisterForm() {
   return (
     <React.Fragment>
-      <label for="fullname">full name</label>
-      <input type="text" id="fullname" />
-      <label for="email">email</label>
-      <input type="text" id="email" />
+      <label for="id">ID</label>
+      <input type="text" id="id" />
       <label for="password">password</label>
-      <input type="text" id="password" />
+      <input type="password" id="password" />
       <label for="confirmpassword">confirm password</label>
       <input type="text" id="confirmpassword" />
-      <input type="submit" value="submit" class="submit" />
+      <label for="firstname">first name</label>
+      <input type="text" id="firstname" />
+      <label for="lastname">last name</label>
+      <input type="text" id="lastname" />
+      <label for="email">e-mail address</label>
+      <input type="text" id="email" />
+      <label for="hp">telephone</label>
+      <input type="number" id="hp" />
+      <label for="ad">Do you agree to the advertisement?
+      <input type="radio" id="email" />yes
+      <input type="radio" id="email" />no
+      </label>
+      
+      <input type="submit" value="submit" className="submit" />
     </React.Fragment>
   );
 }

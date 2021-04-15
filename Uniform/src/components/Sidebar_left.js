@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Sidebar_left.css';
 import { IconContext } from 'react-icons';
+import './Dropdown.css';
 
 function Sidebar_left() {
   const [sidebar, setSidebar] = useState(false);
@@ -25,6 +26,7 @@ function Sidebar_left() {
               <Link to='#' className='left-bars'>
                 <AiIcons.AiOutlineClose />
               </Link>
+              
             </li>
             {SidebarData.map((item, index) => {
               return (
@@ -33,6 +35,7 @@ function Sidebar_left() {
                     {item.icon}
                     <span>{item.title}</span>
                   </Link>
+                  
                 </li>
               );
             })}

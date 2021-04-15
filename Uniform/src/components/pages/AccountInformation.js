@@ -1,5 +1,6 @@
 import React from 'react';
-
+import './SellShirts.css';
+import { Link } from 'react-router-dom';
 
 const AccountInformation = () => {
     return (  
@@ -10,18 +11,22 @@ const AccountInformation = () => {
         <div className='FName'>
             <input type='text'></input>
         </div>
+
         <p>Last Name</p>   
         <div className='LName'>
             <input type='text'></input>
         </div>
+
         <p>E-mail Address</p>   
         <div className='EmailAddress'>
             <input type='text'></input>
         </div>
+        
         <p>Current Password</p>   
         <div className='CPassword'>
             <input type='text'></input>
         </div>
+
         <p>New Password</p>   
         <div className='NPassword'>
             <input type='text'></input>
@@ -30,6 +35,17 @@ const AccountInformation = () => {
         <div className='CNPassword'>
             <input type='text'></input>
         </div>
+
+        <div className='Save'>
+        <button id = "SaveBtn" type = "submit">Save</button>
+        </div>
+
+        <div className='Back2'>
+            <Link to ="/MyAccount">
+            <button id = "DashboardBtn" type = "submit">BACK</button>
+            </Link>
+        </div>
+
         </div>
     );
 }

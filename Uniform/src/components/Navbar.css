@@ -111,10 +111,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: scale(0.4) translate(-90%, 60%);
+    transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    position: fixed;
   }
 
   .fa-times {

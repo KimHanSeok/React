@@ -5,31 +5,31 @@ import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
   {
-    title: 'Side1',
+    title: 'CLUB',
     path: '/side1',
     icon: <AiIcons.AiFillHome />,
     cName: 'left-text'
   },
   {
-    title: 'Side2',
+    title: 'NATIONAL',
     path: '/side2',
     icon: <IoIcons.IoIosPaper />,
     cName: 'left-text'
   },
   {
-    title: 'Side3',
+    title: 'LEGEND',
     path: '/side3',
     icon: <FaIcons.FaCartPlus />,
     cName: 'left-text'
   },
   {
-    title: 'Team',
+    title: 'MATCH WORN',
     path: '/team',
     icon: <IoIcons.IoMdPeople />,
     cName: 'left-text'
   },
   {
-    title: 'Messages',
+    title: 'CLEATANCE',
     path: '/messages',
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'left-text'
