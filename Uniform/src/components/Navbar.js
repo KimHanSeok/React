@@ -53,26 +53,26 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              SELL SHIRTS <i className='fas fa-caret-down' />
+              Services <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <Link
-              to='/Help'
+              to='/products'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              HELP
+              Products
             </Link>
           </li>
           <li className='nav-item'>
             <Link
-              to='/MyAccount'
+              to='/contact-us'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              MY ACCOUNT
+              Contact Us
             </Link>
           </li>
           <li>
