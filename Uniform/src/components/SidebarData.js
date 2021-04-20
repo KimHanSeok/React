@@ -9,6 +9,7 @@ export const SidebarData = [
     path: '/side1',
     icon: <AiIcons.AiFillHome />,
     cName: 'left-text'
+    
   },
   {
     title: 'NATIONAL',

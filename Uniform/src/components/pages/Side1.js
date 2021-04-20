@@ -6,8 +6,8 @@ function Side1() {
     <>
     <div className='Side1'>
       <h1>Club</h1>
-      
     </div>
+    
     </>
   );
 }

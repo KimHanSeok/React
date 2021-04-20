@@ -18,7 +18,7 @@
  }
 
  .login_background {
-    background-image: url('C:/Users/HSKIM/Desktop/2021-04-10/src/images/Hanseok_2.jpg');
+    background-image: url('../images/Hanseok_2.jpg');
     background-size:  cover;
     background-position:center center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
       border-radius: 5px;
       box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
       overflow: hidden; 
-      color:#ffffff;
+      color: white;;
       background: linear-gradient(180deg, rgba(19,38,79,1) 0%, rgb(201, 235, 194) 52%, rgba(255,255,255,0) 82%);
   }
   
