@@ -1,52 +1,51 @@
-import React from 'react';
-import './SellShirts.css';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import "../pages/AccountInformation.css";
+import { useSpring, animated } from "react-spring";
+import {Link} from 'react-router-dom';
 
-const AccountInformation = () => {
-    return (  
-        <div className="AccountInformation">
-            <div><h1>Account Information(계정 정보)</h1></div>
+function AccountInformation() {
 
-        <p>First Name</p>   
-        <div className='FName'>
-            <input type='text'></input>
+  return (
+    <>
+      <div className="account">
+        <div className="account_background">
+          <div className="account_wrapper">
+            <div className="nav-buttons">
+            <h1>Account Information</h1>     
+            </div>
+            <div className="form-group">
+                <AccountInformationForm />
+            </div>
+          </div>``
         </div>
-
-        <p>Last Name</p>   
-        <div className='LName'>
-            <input type='text'></input>
-        </div>
-
-        <p>E-mail Address</p>   
-        <div className='EmailAddress'>
-            <input type='text'></input>
-        </div>
-        
-        <p>Current Password</p>   
-        <div className='CPassword'>
-            <input type='text'></input>
-        </div>
-
-        <p>New Password</p>   
-        <div className='NPassword'>
-            <input type='text'></input>
-        </div>
-        <p>Confirm New Password</p>   
-        <div className='CNPassword'>
-            <input type='text'></input>
-        </div>
-
-        <div className='Save'>
-        <button id = "SaveBtn" type = "submit">Save</button>
-        </div>
-
-        <div className='Back2'>
-            <Link to ="/MyAccount">
-            <button id = "DashboardBtn" type = "submit">BACK</button>
-            </Link>
-        </div>
-
-        </div>
-    );
+      </div>
+    </>
+  );
 }
- export default AccountInformation;
+
+function AccountInformationForm() {
+  return (
+    <React.Fragment>
+      <label for="id">First Name</label>
+      <input type="text" id="First Name" />
+      <label for="id">Last Name</label>
+      <input type="text" id="Last Name" />
+      <label for="id">Email Address</label>
+      <input type="text" id="Email Address" />
+      <label for="id">Current Password</label>
+      <input type="text" id="Current Password" />
+      <label for="id">New Password</label>
+      <input type="text" id="New Password" />
+      <label for="id">Confirm New Password</label>
+      <input type="text" id="Confirm New Password" />
+      <input type="submit" value="submit" className="submit" />
+      <div>
+        <Link to ="/MyAccount">
+            <input type="submit" value="back" className="back" />
+        </Link>
+      </div>
+    </React.Fragment>
+  );
+}
+
+export default AccountInformation;
