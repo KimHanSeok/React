@@ -15,3 +15,6 @@
 
 ## 2021-04-10 Update
 +상세페이지(ACCOUNT DASHBOARD, Address Book) 링크 연결
+
+## 2021-04-28 Update
++My Account 수정, 상세페이지(Account Information)
