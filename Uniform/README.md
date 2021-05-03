@@ -18,3 +18,6 @@
 
 ## 2021-04-28 Update
 +My Account 수정, 상세페이지(Account Information)
+
+## 2021-04-30 Update
++SideBar DropDown
