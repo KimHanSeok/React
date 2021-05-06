@@ -1,5 +1,6 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  background: linear-gradient(90deg, rgb(28, 27, 27) 95%, rgb(26, 23, 23) 100%);
+  /* opacity:0.95;  */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -13,7 +14,12 @@
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.navbar-logo:hover {
+  color : red;
+  transition: 1s;
 }
 
 .fa-firstdraft {
@@ -42,6 +48,7 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-size: 15pt;
 }
 
 .nav-links:hover {
@@ -106,7 +113,7 @@
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
+  .menu-icons {
     display: block;
     position: absolute;
     top: 0;

@@ -1,24 +1,27 @@
 import React from 'react';
+import "../pages/MyAccount.css";
 import { Link } from 'react-router-dom';
 
 const MyAccount = () => {
     return (   
         <> 
-        <div className='1'>
-            <div><h1>My Account</h1></div>
-            <br /><br /><br /><br /><br />
-        <div className='AccountDashboard'>
-            <Link to ="/AccountDashboard">
-            <button id = "AccountBtn" type = "submit">Account Dashboard(계정 게시판)</button>
-            </Link>
-        </div>
-
-        <div className='2'>
-            <Link to ="/AccountInformation">
-            <button id = "AccountBtn" type = "submit">Account Information(계정 정보)</button>
-            </Link>
-        </div>
-
+        <div className = "header2">
+            <br/>
+            <div className='header2-font'>
+                <h1>My Account</h1>
+                <div className='AccountDashboard'>
+                    <div className = 'Account-col'>
+                        <Link to ="/AccountDashboard">
+                            <button id = "AccountBtn" type = "submit">Account Dashboard<br/><br/>계정 게시판</button>
+                        </Link>
+                    </div>
+                    <div className = 'Account-col'>
+                        <Link to ="/AccountInformation">
+                            <button id = "AccountBtn" type = "submit">Account Information<br/><br/>계정 정보</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     );

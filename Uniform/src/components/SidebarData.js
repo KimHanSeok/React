@@ -2,44 +2,119 @@ import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as RiIcons from 'react-icons/ri';
+import Item from '../components/Item';
 
 export const SidebarData = [
   {
     title: 'CLUB',
-    path: '/side1',
+    path: '/overview',
     icon: <AiIcons.AiFillHome />,
-    cName: 'left-text'
-    
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'PREMIER LEAGUE',
+        path: './item',
+        icon: <IoIcons.IoIosPaper />
+      },
+      { 
+        title: 'LA LIGA',
+        path: '/revenue',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'SERIA A',
+        path: '/revenue',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'BUNDESRIGA',
+        path: '/revenue',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'LIGUE 1',
+        path: '/revenue',
+        icon: <IoIcons.IoIosPaper />
+      }
+    ]
   },
   {
     title: 'NATIONAL',
-    path: '/side2',
+    path: '/reports',
     icon: <IoIcons.IoIosPaper />,
-    cName: 'left-text'
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'EUROPE',
+        path: '/reports1',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'AISA',
+        path: '/reports2',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'AMERICA',
+        path: '/reports2',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'AFRICA',
+        path: '/reports2',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: 'OCEANIA',
+        path: '/reports3',
+        icon: <IoIcons.IoIosPaper />
+      }
+    ]
   },
   {
     title: 'LEGEND',
-    path: '/side3',
-    icon: <FaIcons.FaCartPlus />,
-    cName: 'left-text'
+    path: '/products',
+    icon: <FaIcons.FaCartPlus />
   },
   {
     title: 'MATCH WORN',
     path: '/team',
-    icon: <IoIcons.IoMdPeople />,
-    cName: 'left-text'
+    icon: <IoIcons.IoMdPeople />
   },
   {
-    title: 'CLEATANCE',
+    title: 'CLEARANCE',
+    path: '/support',
+    icon: <IoIcons.IoMdHelpCircle />
+  },
+  {
+    title: 'FOOTER',
     path: '/messages',
     icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: 'left-text'
-  },
-  {
-    title: 'Support',
-    path: '/support',
-    icon: <IoIcons.IoMdHelpCircle />,
-    cName: 'left-text'
+
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'Message 1',
+        path: '/message1',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Message 2',
+        path: '/message2',
+        icon: <IoIcons.IoIosPaper />
+      }
+    ]
   },
   
 ];

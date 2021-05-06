@@ -31,16 +31,16 @@ function Navbar() {
     <>
       <nav className='navbar'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-           Uniform
+           REFlER
           <i class='fab fa-firstdraft' />
             </Link>
-        <div className='menu-icon' onClick={handleClick}>
+        <div className='menu-icons' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home
+              HOME
             </Link>
           </li>
           <li
@@ -59,11 +59,11 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link
-              to='/Help'
+              to='/ContactUs'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              HELP
+              CONTACT US
             </Link>
           </li>
           <li className='nav-item'>

@@ -5,6 +5,9 @@ import {Link} from 'react-router-dom';
 
 function Sign_up() {
   const [registrationFormStatus, setRegistartionFormStatus] = useState(false);
+  
+  const [email, setEmail] = useState(null);
+
   const loginProps = useSpring({
     left: registrationFormStatus ? -500 : 0, // Login form sliding positions
   });
