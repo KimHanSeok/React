@@ -24,3 +24,6 @@
 
 ## 2021-05-05 Update
 +상품창, My Account, Contact Us 
+
+## 2021-05-07 Update
++Sidebar 이미지수정, 상세페이지(CLUB and NATINAL)
