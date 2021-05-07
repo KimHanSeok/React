@@ -1,30 +1,29 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-//import Sidebar_left from './components/Sidebar_left';
-//import Side1 from './components/pages/Side1';
-//import Side2 from './components/pages/Side2';
-//import Side3 from './components/pages/Side3';
+import Navbar from './components/header/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './components/header/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Sign_up from './components/pages/loginform';
-import Marketing from './components/pages/Marketing';
-import Consulting from './components/pages/Consulting';
-import SellShirts from './components/pages/SellShirts';
-import Help from './components/pages/Help';
-import MyAccount from './components/pages/MyAccount';
-import AccountInformation from './components/pages/AccountInformation';
-import AccountDashboard from './components/pages/AccountDashboard';
-import AddressBook from './components/pages/AddressBook';
-import MyOrders from './components/pages/MyOrders';
-import MyWishlist from './components/pages/MyWishlist';
-import MyProductReviews from './components/pages/MyProductReviews';
-import Overview from './components/pages/Overview';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/pages/Reports';
-import Team from './components/pages/Team';
-import Item from './components/Item';
-import ContactUs from './components/ContactUs';
+import Sign_up from './components/header/loginform';
+import SellShirts from './components/header/SellShirts';
+import MyAccount from './components/header/MyAccount';
+import AccountInformation from './components/header/AccountInformation';
+import AccountDashboard from './components/header/AccountDashboard';
+import Overview from './components/sidebar/Overview';
+import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/sidebar/Reports';
+import Team from './components/sidebar/Team';
+import Item from './components/sidebar/Item';
+import Item2 from './components/sidebar/Item2';
+import Item3 from './components/sidebar/Item3';
+import Item4 from './components/sidebar/Item4';
+import Item5 from './components/sidebar/Item5';
+import Item6 from './components/sidebar/Item6';
+import Item7 from './components/sidebar/Item7';
+import Item8 from './components/sidebar/Item8';
+import Item9 from './components/sidebar/Item9';
+import Item10 from './components/sidebar/Item10';
+import ContactUs from './components/header/ContactUs';
+import Footer1 from './components/footer123/Footer1';
 
 function App() {
   return (
@@ -33,32 +32,32 @@ function App() {
       <Sidebar />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/ContactUs' component={ContactUs} />
-        <Route path='/MyAccount' component={MyAccount} />
+        <Route path='/contactus' component={ContactUs} />
+        <Route path='/myaccount' component={MyAccount} />
         <Route path='/sign_up' component={Sign_up} />
-        <Route path='/marketing' component={Marketing} />
-        <Route path='/consulting' component={Consulting} />
-        {/* <Route path='/side1' component={Side1} />
-        <Route path='/side2' component={Side2} />
-        <Route path='/side3' component={Side3} />  */}
         <Route path='/sign_up' component={Sign_up} />
-        <Route path='/SellShirts' component={SellShirts} />
-        <Route path='/AccountInformation' component={AccountInformation} />
-        <Route path='/AccountDashboard' component={AccountDashboard} />
-        <Route path='/AddressBook' component={AddressBook} />
-        <Route path='/MyOrders' component={MyOrders} />
-        <Route path='/MyWishlist' component={MyWishlist} />
-        <Route path='/MyProductReviews' component={MyProductReviews} />
+        <Route path='/sellShirts' component={SellShirts} />
+        <Route path='/accountinformation' component={AccountInformation} />
+        <Route path='/accountdashboard' component={AccountDashboard} />
         <Route path='/overview' exact component={Overview} />
         <Route path='/reports' exact component={Reports} />
         <Route path='/reports/reports1' exact component={ReportsOne} />
         <Route path='/reports/reports2' exact component={ReportsTwo} />
         <Route path='/reports/reports3' exact component={ReportsThree} />
         <Route path='/team' exact component={Team} />
-        <Route path='/Item' exact component={Item} />
+        <Route path='/item' exact component={Item} />
+        <Route path='/item2' exact component={Item2} />
+        <Route path='/item3' exact component={Item3} />
+        <Route path='/item4' exact component={Item4} />
+        <Route path='/item5' exact component={Item5} />
+        <Route path='/item6' exact component={Item6} />
+        <Route path='/item7' exact component={Item7} />
+        <Route path='/item8' exact component={Item8} />
+        <Route path='/item9' exact component={Item9} />
+        <Route path='/item10' exact component={Item10} />
       </Switch>
+      <Footer1 />
     </Router>
-    // <ContactUs></ContactUs>
   );
 }
 
