@@ -1,14 +1,9 @@
 /* basic setting ( all reset ) */
 * {
-    margin : 0;
-    padding : 0;
+    
     font-family : 'Poppins', sans-serif;
 }
 
-body {
-    font-family : sans-serif;
-    font-family : sans-serif;
-}
 
 li {
     list-style : none;
@@ -182,3 +177,74 @@ img {
     max-width : 10%;
     height : auto;
 }
+
+.club {
+    background-image: url('./sidebar_images/club.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  .national {
+    background-image: url('./sidebar_images/National.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  .legend {
+    background-image: url('./sidebar_images/Matchworn.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width : 100%;
+    min-height : 100vh;
+    position : relative;
+  }
+
+  .matchworn {
+    background-image: url('./sidebar_images/Matchworn.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 100px;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width : 100%;
+    min-height : 100vh;
+    position : relative;
+  }
+
+  /* .Pmain {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/PrimierLeague.jpg);
+    background-position : center;
+    background-size : cover;
+    position : relative;
+}    */

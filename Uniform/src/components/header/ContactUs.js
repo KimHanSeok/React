@@ -12,7 +12,11 @@ const ContactUs = () => {
                 <div className = "text-box">
                     <h1>CONTACT US</h1>
                     <h2>
-                        Contact us.<br/>
+                        김한석 01012345678<br/>
+                        hanzang0706@naver.com<br/>
+                        <br/>
+                        류관현 01098765432<br/>
+                        sosto258@kakao.com
                     </h2>
                 </div>
             </section>

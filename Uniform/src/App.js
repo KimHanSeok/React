@@ -9,9 +9,10 @@ import SellShirts from './components/header/SellShirts';
 import MyAccount from './components/header/MyAccount';
 import AccountInformation from './components/header/AccountInformation';
 import AccountDashboard from './components/header/AccountDashboard';
-import Overview from './components/sidebar/Overview';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './components/sidebar/Reports';
-import Team from './components/sidebar/Team';
+import Club from './components/sidebar/Club';
+import National from './components/sidebar/National';
+import Legend from './components/sidebar/Legend';
+import Matchworn from './components/sidebar/Matchworn';
 import Item from './components/sidebar/Item';
 import Item2 from './components/sidebar/Item2';
 import Item3 from './components/sidebar/Item3';
@@ -39,12 +40,10 @@ function App() {
         <Route path='/sellShirts' component={SellShirts} />
         <Route path='/accountinformation' component={AccountInformation} />
         <Route path='/accountdashboard' component={AccountDashboard} />
-        <Route path='/overview' exact component={Overview} />
-        <Route path='/reports' exact component={Reports} />
-        <Route path='/reports/reports1' exact component={ReportsOne} />
-        <Route path='/reports/reports2' exact component={ReportsTwo} />
-        <Route path='/reports/reports3' exact component={ReportsThree} />
-        <Route path='/team' exact component={Team} />
+        <Route path='/club' exact component={Club} />
+        <Route path='/national' exact component={National} />
+        <Route path='/legend' exact component={Legend} />
+        <Route path='/matchworn' exact component={Matchworn} />
         <Route path='/item' exact component={Item} />
         <Route path='/item2' exact component={Item2} />
         <Route path='/item3' exact component={Item3} />
