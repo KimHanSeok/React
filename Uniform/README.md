@@ -27,3 +27,6 @@
 
 ## 2021-05-07 Update
 +Sidebar 이미지수정, 상세페이지(CLUB and NATINAL)
+
+## 2021-05-22 Update
++CSS, Footer, Cart, LoginForm 수정
