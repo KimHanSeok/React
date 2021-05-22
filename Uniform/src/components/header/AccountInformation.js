@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./AccountInformation.css";
-import { useSpring, animated } from "react-spring";
 import {Link} from 'react-router-dom';
 
 function AccountInformation() {
@@ -10,10 +9,10 @@ function AccountInformation() {
       <div className="account">
         <div className="account_background">
           <div className="account_wrapper">
-            <div className="nav-buttons">
+            <div className="acc-buttons">
             <h1>Account Information</h1>     
             </div>
-            <div className="form-group">
+            <div className="acc-group">
                 <AccountInformationForm />
             </div>
           </div>``
@@ -38,7 +37,7 @@ function AccountInformationForm() {
       <input type="text" id="New Password" />
       <label for="id">Confirm New Password</label>
       <input type="text" id="Confirm New Password" />
-      <input type="submit" value="submit" className="submit" />
+      <input type="submit" value="submit" className="acc_submit" />
       <div>
         <Link to ="/MyAccount">
             <input type="submit" value="back" className="back" />

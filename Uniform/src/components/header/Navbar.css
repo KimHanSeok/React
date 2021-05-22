@@ -1,12 +1,11 @@
 .navbar {
-  /* background: linear-gradient(90deg, rgb(228, 200, 221) 95%, rgb(26, 23, 23) 100%); */
-  /* opacity:0.95;  */
   background:bisque;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 15px;
+  font-weight : bold;
 }
 
 .navbar-logo {
@@ -63,6 +62,11 @@
 }
 
 .nav-links-mobile {
+  display: none;
+}
+
+
+.nav-links-mobile2 {
   display: none;
 }
 
@@ -148,7 +152,29 @@
     transition: 250ms;
   }
 
-  button {
-    display: none;
-  }
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #1888ff;
+  font-size: 15pt;
+  font-weight: bold;
+  display: none;
+}
+
+.btn:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 4px;
+  border: 0.5px solid #1888ff;
+  transition: all 0.5s ease-out;
+}
+
 }

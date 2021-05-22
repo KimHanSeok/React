@@ -1,10 +1,5 @@
 /* basic setting ( all reset ) */
-* {
-    
-    font-family : 'Poppins', sans-serif;
-}
-
-
+/* 
 li {
     list-style : none;
 }
@@ -18,7 +13,7 @@ a {
 
 img {
     border : 0;
-}
+} */
 
 /* header 
 *  align : center
@@ -28,87 +23,6 @@ img {
     min-height : 100vh;
     width : 100%;
     background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/PrimierLeague.jpg);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Lmain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/LaLiga.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Smain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/SeriaA.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Bmain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Bundesliga.jpg);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Fmain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Ligue1.jpg);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Umain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Europe.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Amain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Asia.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.A2main {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/America.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.A3main {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Africa.png);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
-.Omain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Oceania.png);
     background-position : center;
     background-size : cover;
     position : relative;
@@ -161,90 +75,7 @@ img {
     max-width : 60%;
 }
 
-/* .contact {
-    background : black;
-    border-radius : 10px;
-    color : #fff;
-    width : 100%;
-    margin : auto;
-    text-align : center;
-    padding-top : 50px;
-    padding-bottom : 50px;
-    margin-bottom : 70px;
-} */
-
 .contact img {
     max-width : 10%;
     height : auto;
 }
-
-.club {
-    background-image: url('./sidebar_images/club.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-
-  .national {
-    background-image: url('./sidebar_images/National.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-    font-size: 100px;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-
-  .legend {
-    background-image: url('./sidebar_images/Matchworn.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-    font-size: 100px;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    width : 100%;
-    min-height : 100vh;
-    position : relative;
-  }
-
-  .matchworn {
-    background-image: url('./sidebar_images/Matchworn.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-    font-size: 100px;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    width : 100%;
-    min-height : 100vh;
-    position : relative;
-  }
-
-  /* .Pmain {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/PrimierLeague.jpg);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}    */

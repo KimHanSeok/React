@@ -7,7 +7,7 @@ import * as RiIcons from 'react-icons/ri';
 export const SidebarData = [
   {
     title: 'CLUB',
-    path: '/club',
+    path: '/Club',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -42,7 +42,7 @@ export const SidebarData = [
   },
   {
     title: 'NATIONAL',
-    path: '/national',
+    path: '/National',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -81,12 +81,12 @@ export const SidebarData = [
   },
   {
     title: 'LEGEND',
-    path: '/legend',
+    path: '/Legend',
     icon: <FaIcons.FaCartPlus />
   },
   {
     title: 'MATCH WORN',
-    path: '/matchworn',
+    path: '/Matchworn',
     icon: <IoIcons.IoMdPeople />
   },
   {
@@ -95,25 +95,10 @@ export const SidebarData = [
     icon: <IoIcons.IoMdHelpCircle />
   },
   {
-    title: 'FOOTER',
-    path: '/messages',
+    title: 'CART',
+    path: '/cart',
     icon: <FaIcons.FaEnvelopeOpenText />,
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
-
-    subNav: [
-      {
-        title: 'Message 1',
-        path: '/message1',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Message 2',
-        path: '/message2',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
   },
   
 ];

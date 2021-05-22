@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
@@ -11,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <div className='navbar'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             REP1ER
           <i class='fab fa-firstdraft' />
@@ -54,18 +53,27 @@ function Navbar() {
               MY ACCOUNT
             </Link>
           </li>
-          <li>
+          
+        </ul>
+        <li className='nav-item'>
             <Link
-              to='/sign-up'
-              className='nav-links-mobile'
+              to='/Login'
+              className='nav-links'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              LOGIN
             </Link>
           </li>
-        </ul>
-        <Button />
-      </nav>
+          <li className='nav-item'>
+            <Link
+              to='/Register'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              REGISTER
+            </Link>
+          </li>
+      </div>
     </>
   );
 }

@@ -1,0 +1,60 @@
+.Bmain {
+    min-height : 100vh;
+    width : 100%;
+    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/Bundesliga.jpg);
+    background-position : center;
+    background-size : cover;
+    position : relative;
+}   
+
+.text-box {
+    width : 100%;
+    color : #fff;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    text-align : center;
+}
+
+.text-box h1 {
+    font-size : 70px;
+}
+
+.text-box p {
+    margin : 30px 0 30px;
+    font-size : 14px;
+    color : #fff;
+}
+
+.row {
+    margin-top : 5%;
+    display : flex;
+    justify-content : space-between;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+.item-col {
+    flex-basis : 30%;
+    
+    background : #eeeaeb;
+    border-radius : 10px;
+    margin-bottom : 5%;
+    padding : 20px 12px;
+    box-sizing : border-box;
+    transition : 0.7s;
+}
+
+.item-col:hover {
+    box-shadow : 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.item-col img {
+    max-width : 60%;
+}
+
+.contact img {
+    max-width : 10%;
+    height : auto;
+}

@@ -45,7 +45,7 @@
 }
 
 /* Nav buttons */
-.nav-buttons {
+.acc_buttons {
   width: 100%;
   height: 100px;
   padding-top: 40px;
@@ -68,7 +68,7 @@ button.active {
 } 
 
   /* form styling */
-  .form-group input {
+  .acc_group input {
       width: 100%;
       height: 35px;
       padding-left: 15px;
@@ -77,10 +77,10 @@ button.active {
       margin-bottom: 20px;
       background: rgba(255,255,255,.5);
   }
-  .form-group label {
+  .acc_group label {
     text-transform: uppercase;
   }
-  input.submit {
+  input.acc_submit {
       font-weight: 700;
       text-transform: uppercase;
       font-size: 1em;

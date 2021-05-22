@@ -2,70 +2,44 @@ import SimpleReactFooter from "simple-react-footer";
 
 function Footer1() {
 
-    const description = "Hi, bro!!! This is a place for Repler. Contact me here if you have any Suggestions and questions. R_E_P_1_E_R: 11458 Gyeongdong Daehak-ro 27, Yangju-si, Gyeonggi-do (Goam-dong, Kyungdong University) Tel: 031-869-9900 Fax: 031-869-990";
-    
+    const description = "According to wikipedia, the cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat or a feral cat; the latter ranges freely and avoids human contact.";
+  
+
     const title = "REP1ER";
 
     const columns = [
         {
-            // title: "Resources",
+            title: "REP1ER",
             resources: [
                 {
-                    name: "SellShirts",
-                    link: "/SellShirts"
+                    name: "About US",
+                    link: "/aboutus"
                 },
                 {
                     name: "ContactUs",
+                    link: "/contactus"
+                },
+                {
+                    name: "Announcement",
                     link: "/ContactUs"
                 },
                 {
-                    name: "MyAccount",
-                    link: "/MyAccount"
+                    name: "Code View",
+                    link: "/codeview"
                 },
                 {
-                    // name: "Admin",
-                    // link: "/admin"
+                    name: "CEO Comment",
+                    link: "/comment"
                 }
             ]
-        },
-        {
-            // title: "Legal",
-            resources: [
-                {
-                    name: "Home",
-                    link: "/"
-                },
-                {
-                    name: "SignUp",
-                    link: "/Sign_Up"
-                },
-                {
-                    name: "Map",
-                    link: "/"
-                }
-                       ]
-        },
-        {
-            // title: "Visit",
-            resources: [
-                {
-                //     name: "Locations",
-                //     link: "/locations"
-                // },
-                // {
-                //     name: "Culture",
-                //     link: "/culture"
-                }
-                       ]
         }
     ]
         return <SimpleReactFooter
             description={description}
             title={title}
             columns={columns}
-            twitter="twitter"
             facebook="profile.php?id=100004751140919"
-            linkedin="fluffy_cat_on_linkedin"
+            twitter="twitter"
             instagram="live"
             youtube="/"
             pinterest="/"

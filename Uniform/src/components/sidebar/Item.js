@@ -4,7 +4,6 @@ import "./Item.css";
 const Item = () => {
     return (
     <>
-        <header>
             <div className = "Pmain" >
                 <div className = "text-box">
                     <h1>PREMIER LEAGUE</h1>
@@ -13,91 +12,84 @@ const Item = () => {
                     </p>
                 </div>
             </div>
-        </header>
 
         <div className = "row">
             <div className = "item-col">
-               
                 <p>
-                    <img src = "# " />
+                    <img src = {require("../sidebar/images/aws.png").default}/> 
                 </p>
-                
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-               
+                <h3>1</h3>
+                <h5>1</h5>
             </div>
+
             <div className = "item-col">
                 <p>
-                    <img src = "/img-4.jpg"/>
+                    <img src = {require("../sidebar/images/aws.png").default}/>
                 </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
+                <h3>1</h3>
+                <h5>1</h5>
             </div>
+            
             <div className = "item-col">
                 <p>
                     <img src = "PrimierLeague.jpg"/>
                 </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-        </div>
-        <div className = "row">
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/mentoring.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/club.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/parttimejob.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-        </div>
-        <div className = "row">
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/mentoring.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/club.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
-            </div>
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/parttimejob.jpg"/>
-                </p>
-                <br/><h3>1</h3>
-                <br/><h5>1</h5>
+                <h3>1</h3>
+                <h5>1</h5>
             </div>
         </div>
 
-        {/* <footer>
-            <div className = "contact">
-                <h1>CONTACT US</h1>
-                <div className = "row">
-                    <div className = "contact-col">
-                        <a href = "#"><img src = "#"/></a>
-                    </div>
-                </div>
+        <div className = "row">
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/mentoring.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
             </div>
-        </footer> */}
+
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/club.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
+            </div>
+
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/parttimejob.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
+            </div>
+        </div>
+
+        <div className = "row">
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/mentoring.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
+            </div>
+
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/club.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
+            </div>
+
+            <div className = "item-col">
+                <p>
+                    <img src = "../images/parttimejob.jpg"/>
+                </p>
+                <h3>1</h3>
+                <h5>1</h5>
+            </div>
+        </div>
     </>
     );
 };
