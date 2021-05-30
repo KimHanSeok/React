@@ -30,3 +30,6 @@
 
 ## 2021-05-22 Update
 +CSS, Footer, Cart, LoginForm 수정
+
+## 2021-05-30 Update
++상품페이지(Product, SellShirt(CSS), MainPageEventBannel) 수정
