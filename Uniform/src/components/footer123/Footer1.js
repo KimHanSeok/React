@@ -21,7 +21,7 @@ function Footer1() {
                 },
                 {
                     name: "Announcement",
-                    link: "/ContactUs"
+                    link: "/announcement"
                 },
                 {
                     name: "Code View",

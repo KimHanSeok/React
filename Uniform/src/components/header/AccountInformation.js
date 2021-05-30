@@ -6,7 +6,7 @@ function AccountInformation() {
 
   return (
     <>
-      <div className="account">
+      <div className="accountinformation">
         <div className="account_background">
           <div className="account_wrapper">
             <div className="acc-buttons">
@@ -15,7 +15,7 @@ function AccountInformation() {
             <div className="acc-group">
                 <AccountInformationForm />
             </div>
-          </div>``
+          </div>
         </div>
       </div>
     </>
@@ -38,11 +38,11 @@ function AccountInformationForm() {
       <label for="id">Confirm New Password</label>
       <input type="text" id="Confirm New Password" />
       <input type="submit" value="submit" className="acc_submit" />
-      <div>
-        <Link to ="/MyAccount">
+      
+        <Link to ="/myaccount">
             <input type="submit" value="back" className="back" />
         </Link>
-      </div>
+      
     </React.Fragment>
   );
 }

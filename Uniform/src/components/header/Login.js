@@ -24,6 +24,7 @@ const Login = ({click}) => {
                     axios.defaults.headers.common['Authorization'] = `Bearer ${accessToken}`;
                     console.log(response.data);
                     setToken(response.data);
+                    localStorage.setItem("name", name);
                     // setLoginFlag(response.data.loginFlag);
                 });
             } catch(err) {
@@ -43,6 +44,8 @@ const Login = ({click}) => {
             alert("Login Successful !!!");
             click = true;
             setRedirectFlag(true);
+            window.location.reload();
+            window.location.replace("/");
         } else {
 
             console.log("Login Failed");
@@ -66,20 +69,20 @@ const Login = ({click}) => {
         <div className = "login_main">
             <div className = "login_body">
                 <div className = "login_main_holder">
-                    <h1 id = "signin_header">Login</h1>
+                    <h1 >Login</h1>
                     
-                    <div id = "signin_error_msg_holder">
-                    <p id = "signin_error_msg">Invalid username <span id = "error_msg_second_line">and/or password</span></p>
+                    <div className = "signin_error_msg_holder">
+                    <p className = "signin_error_msg">Invalid username <span className = "error_msg_second_line">and/or password</span></p>
                     </div>
                     
-                    <form id = "signin_form" onSubmit = {onSubmitHandler}>
+                    <form className = "signin_form" onSubmit = {onSubmitHandler}>
                         <input type = "text" name = "name" id = "userName_field" value = {name} onChange = {onChangeName}
                             className = "signin_form_field" placeholder="Email"></input>
 
                         <input type = "password" name = "password" id = "password_field" value = {password} onChange = {onChangePassword}
                             className = "signin_form_field" placeholder="Password"></input>
 
-                        <button id = "submit_button" type = "submit">Sign In</button>
+                        <button className = "signin_submit_button" type = "submit">Sign In</button>
                         {redirectFlag && (<Redirect to = "/"></Redirect>)}
                     </form>
                 </div>

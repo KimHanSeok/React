@@ -1,23 +1,22 @@
 import React, { useState } from "react";
-import "./ContactUs.css";
+import "./Comment.css";
 
 const Comment = () => {
     return (
-    <>
-        <header>
-            <section className = "header" id = "header">
-                <nav>
-                    <a href = "./main.html"></a>
-                </nav>
-                <div className = "text-box">
-                    <h1>CONTACT US</h1>
-                    <h2>
-                        Contact us.<br/>
-                    </h2>
-                </div>
-            </section>
-        </header>
-    </>
+    
+        <div className = "comment_head" >
+                
+            <div className = "comment_text-box">
+                CEO COMMENT
+            </div>
+
+            <div className = "comment_text-box2">
+                    
+                K.D.U 
+                    
+            </div>
+        </div>
+    
     );
 };
 export default Comment;

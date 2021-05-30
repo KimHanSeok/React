@@ -1,23 +1,22 @@
 import React, { useState } from "react";
-import "./ContactUs.css";
+import "./Announcement.css";
 
 const Announcement = () => {
     return (
-    <>
-        <header>
-            <section className = "header" id = "header">
-                <nav>
-                    <a href = "./main.html"></a>
-                </nav>
-                <div className = "text-box">
-                    <h1>CONTACT US</h1>
-                    <h2>
-                        Contact us.<br/>
-                    </h2>
-                </div>
-            </section>
-        </header>
-    </>
+    
+        <div className = "ann_head" >
+                
+            <div className = "ann_text-box">
+                ANNOUNCEMENT
+            </div>
+
+            <div className = "ann_text-box2">
+                    
+                Announcement.
+                    
+            </div>
+        </div>
+    
     );
 };
 export default Announcement;

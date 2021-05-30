@@ -3,21 +3,34 @@ import "./ContactUs.css";
 
 const ContactUs = () => {
     return (
-    <>
-        <header>
-            <section className = "header" id = "header">
-                <nav>
-                    <a href = "./main.html"></a>
-                </nav>
-                <div className = "text-box">
-                    <h1>CONTACT US</h1>
-                    <h2>
-                        Contact us.<br/>
-                    </h2>
-                </div>
-            </section>
-        </header>
-    </>
+    
+        <div className = "contact_head" >
+                
+            <div className = "contact_text-box">
+                PRODUCT INQUIRY
+            </div>
+
+            <div className = "contact_text-box2">  
+                KIM 01022478287 
+            </div>
+
+            <div className = "contact_text-box3">  
+                KIM 01022478287
+            </div>
+            <div className = "contact_text-box4">
+                MAIN NUMBER
+            </div>
+            <div className = "contact_text-box5">
+                031-0555-0555
+            </div>
+            <div className = "contact_text-box6">
+                ACCOUNT
+            </div>
+            <div className = "contact_text-box7">
+                KakaoBank 3333-10-7376587
+            </div>
+        </div>
+    
     );
 };
 export default ContactUs;

@@ -6,7 +6,7 @@ const CartItem = ({ item, qtyChangeHandler, removeHandler }) => {
             <div className="cartitem_image">
                 {/* 이미지 넣으면 이거 */}
                 {/* <img src={item.imageUrl} alt={item.name}></img> */}
-                <img src="http://placehold.it/100x100?text=sample" alt={item.name}></img>
+                <img src={require('../../images/img-1.jpg').default} alt={item.name}></img>
             </div>
 
             <Link to={`/product/${item.product}`} className="cartitem_name">

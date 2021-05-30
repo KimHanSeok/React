@@ -75,6 +75,8 @@ function RegisterForm() {
           password: password
         }
         );
+        
+    
 
         console.log("Success");
         //history.pushState('/');
@@ -84,14 +86,18 @@ function RegisterForm() {
       }
     }
 
-    postUser();
+    postUser(
+      
+    );
   }
 
   return (
-    <div className = "main_body">
-            <h1>Sign Up</h1>
-            <div className = "form">
-                <form id = "signup_form" onSubmit = {onSubmitHandler}>
+    <div className = "register_main_body">
+      <div className = "register_title">
+            Sign Up
+            </div>
+            <div className = "register_form">
+                <form className = "signup_form" onSubmit = {onSubmitHandler}>
                     <legend><span className = "base">!</span>Your basic info</legend>
                     <label for = "mail">Email:</label>
                     <input type = "email" id = "mail" name = "user_email" value = {email} onChange = {onChangeEmail}></input>
@@ -115,9 +121,10 @@ function RegisterForm() {
                     {/* <label for = "address">Address:</label>
                     <input type = "text" id = "address" name = "user_address" 
                     ></input> */}
-                    
-                    <button id = "submit_button" type = "submit">Sign Up</button>
-                    {signUpCheck && (<Redirect to = "/"></Redirect>)}
+                    <Link to='/Login'>
+                    <button className = "register_submit_button" type = "submit" onClick = {onSubmit}>Sign Up</button>
+                    {signUpCheck && (<Redirect to = "/Login"></Redirect>)}
+                    </Link>
                 </form>
             </div>
         </div>

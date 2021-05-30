@@ -1,4 +1,4 @@
-import * as actionTypes from '../constants/productConstants';
+import * as actionTypes from '../constants/ProductConstants';
 import axios from 'axios';
 
 export const getProducts = (number) => async (dispatch) => {

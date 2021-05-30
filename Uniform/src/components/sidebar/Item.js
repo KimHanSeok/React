@@ -1,96 +1,25 @@
 import React, { useState } from "react";
 import "./Item.css";
+import {Link, Redirect} from 'react-router-dom';
 
-const Item = () => {
+const Item = ({ _id, name, price, img, detail }) => {
+
+    const imgUrl = img;
+
     return (
     <>
-            <div className = "Pmain" >
-                <div className = "text-box">
-                    <h1>PREMIER LEAGUE</h1>
-                    <p>
-                        REP1ER's PREMIER LEAGUE<br/>
-                    </p>
-                </div>
+        {/* <div className = "item_row"> */}
+            <div className = "item_col">
+                <p>
+                    <img src = {require("../sidebar/images/" + imgUrl).default} alt = ""/> 
+                </p>
+                <h3>{name}</h3>
+                <h5>{price}$</h5>
+                <h5>{detail}</h5>
+                <button className = "detail_button"><Link to = "/contactus">Detail</Link></button>
             </div>
+        {/* </div> */}
 
-        <div className = "row">
-            <div className = "item-col">
-                <p>
-                    <img src = {require("../sidebar/images/aws.png").default}/> 
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-
-            <div className = "item-col">
-                <p>
-                    <img src = {require("../sidebar/images/aws.png").default}/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-            
-            <div className = "item-col">
-                <p>
-                    <img src = "PrimierLeague.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-        </div>
-
-        <div className = "row">
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/mentoring.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/club.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/parttimejob.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-        </div>
-
-        <div className = "row">
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/mentoring.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/club.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-
-            <div className = "item-col">
-                <p>
-                    <img src = "../images/parttimejob.jpg"/>
-                </p>
-                <h3>1</h3>
-                <h5>1</h5>
-            </div>
-        </div>
-    </>
-    );
-};
+      </>
+    )};
 export default Item;

@@ -7,7 +7,6 @@ import * as RiIcons from 'react-icons/ri';
 export const SidebarData = [
   {
     title: 'CLUB',
-    path: '/Club',
     icon: <AiIcons.AiFillHome />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -15,34 +14,33 @@ export const SidebarData = [
     subNav: [
       {
         title: 'PREMIER LEAGUE',
-        path: './item',
+        path: './premierleague',
         icon: <IoIcons.IoIosPaper />
       },
       { 
         title: 'LA LIGA',
-        path: '/item2',
+        path: '/laliga',
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'SERIA A',
-        path: '/item3',
+        path: '/seria',
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'BUNDESRIGA',
-        path: '/item4',
+        path: '/bundesriga',
         icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'LIGUE 1',
-        path: '/item5',
+        path: '/ligue1',
         icon: <IoIcons.IoIosPaper />
       }
     ]
   },
   {
     title: 'NATIONAL',
-    path: '/National',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -50,31 +48,31 @@ export const SidebarData = [
     subNav: [
       {
         title: 'EUROPE',
-        path: '/item6',
+        path: '/europe',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: 'AISA',
-        path: '/item7',
+        path: '/asia',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: 'AMERICA',
-        path: '/item8',
+        path: '/america',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: 'AFRICA',
-        path: '/item9',
+        path: '/africa',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: 'OCEANIA',
-        path: '/item10',
+        path: '/oceania',
         icon: <IoIcons.IoIosPaper />
       }
     ]
@@ -86,7 +84,7 @@ export const SidebarData = [
   },
   {
     title: 'MATCH WORN',
-    path: '/Matchworn',
+    path: '/matchworn',
     icon: <IoIcons.IoMdPeople />
   },
   {

@@ -1,23 +1,17 @@
 import React, { useState } from "react";
-import "./ContactUs.css";
+import "./CodeView.css";
 
 const CodeView = () => {
     return (
-    <>
-        <header>
-            <section className = "header" id = "header">
-                <nav>
-                    <a href = "./main.html"></a>
-                </nav>
-                <div className = "text-box">
-                    <h1>CONTACT US</h1>
-                    <h2>
-                        Contact us.<br/>
-                    </h2>
-                </div>
-            </section>
-        </header>
-    </>
+    
+        <div className = "code_head" >
+                
+            <div className = "code_text-box">
+                <a className = "code_link" href = "https://github.com/RyuKwanHyun/HJK/tree/main">CODE VIEW</a>
+            </div>
+
+        </div>
+    
     );
 };
 export default CodeView;

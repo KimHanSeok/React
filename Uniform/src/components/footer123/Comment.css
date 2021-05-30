@@ -1,4 +1,5 @@
-.header {
+
+.comment_head {
     min-height : 100vh;
     width : 100%;
     background-image : linear-gradient(rgba(10, 10, 30, 0.2), rgba(10, 10, 30, 0.2)), url('../../images/img-3.jpg');
@@ -7,36 +8,25 @@
     position : relative;
 }   
 
-.text-box {
+.comment_text-box {
     width : 100%;
     color : #fff;
     position : absolute;
-    top : 50%;
+    top : 20%;
     left : 50%;
     transform : translate(-50%, -50%);
     text-align : center;
+    font-size: 110px;
+    font-weight: bold;
 }
 
-.text-box h1 {
-    font-size : 70px;
-}
-
-.text-box h2 {
-    margin : 30px 0 30px;
+.comment_text-box2 {
+    width : 100%;
     color : #fff;
-}
-
-
-.row {
-    display : flex;
-    justify-content : space-between;
-}
-
-/* experience */
-.experience {
-    width : 80%;
-    margin : auto;
+    position : absolute;
+    top : 60%;
+    left : 50%;
+    transform : translate(-50%, -50%);
     text-align : center;
-    padding-top : 120px;
-    margin-bottom : 100px;
+    font-size: 30px;
 }
