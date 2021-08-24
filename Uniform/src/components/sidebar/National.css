@@ -1,9 +1,0 @@
-.national {
-    min-height : 100vh;
-    width : 100%;
-    background-image : linear-gradient(rgba(10, 10, 30, 0.5), rgba(10, 10, 30, 0.5)), url(./sidebar_images/National.jpg);
-    background-position : center;
-    background-size : cover;
-    position : relative;
-}   
-
