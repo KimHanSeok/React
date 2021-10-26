@@ -1,0 +1,83 @@
+@value marketTeamOrange, marketTeamLightOrange, marketBlack, marketShadow, marketLightGrey from '../../common/colors.css';
+@value mediaQuery from '../../common/size.css';
+
+.cart {
+  width: 100%;
+  display: flex;
+}
+
+.title {
+  font-size: 1.8em;
+  margin-left: 1.2rem;
+}
+
+.empty {
+  font-size: 1em;
+  margin-left: 1.4rem;
+}
+
+.empty > a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: marketBlack;
+  font-weight: bold;
+}
+
+.empty > a:hover {
+  cursor: pointer;
+  color: marketTeamOrange;
+  transition: 0.5s;
+}
+
+.item {
+  flex: 0.7;
+  padding: 1rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.info {
+  height: fit-content;
+  flex: 0.3;
+  padding: 1rem;
+  border: 2px solid marketBlack;
+  border-radius: 2rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
+  box-shadow: 4px 4px 4px marketShadow;
+}
+
+.detail {
+  border-top: 1px solid marketBlack;
+  border-bottom: 1px solid marketBlack;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 0.8rem;
+  font-size: 1.1em;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  background-color: marketTeamOrange;
+  border: 2px solid marketTeamOrange;
+  border-radius: 10rem;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: transparent;
+  transition: 0.5s;
+  color: marketTeamOrange;
+  cursor: pointer;
+}
+
+@media screen and (max-width: mediaQuery) {
+  .cart {
+    flex-direction: column;
+  }
+}

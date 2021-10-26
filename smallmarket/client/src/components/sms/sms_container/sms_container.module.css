@@ -1,0 +1,12 @@
+@value marketTeamOrange, marketBlack, marketWhite from '../../../common/colors.css';
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  background-color: marketWhite;
+  display: flex;
+  margin-left: 35%;
+  flex-direction: column;
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 20%), 0 5px 20px 0 rgb(0 0 0 / 19%);
+}

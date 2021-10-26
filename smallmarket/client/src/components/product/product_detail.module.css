@@ -1,0 +1,101 @@
+@value marketWhite, marketBlack, marketInput, marketTeamOrange, marketTeamYellow, marketTeamLightOrange from '../../common/colors.css';
+.productWrap {
+  max-width: 1300px;
+  margin: 1rem auto;
+  display: flex;
+}
+
+.productContainer {
+  display: flex;
+  flex: 0.8;
+}
+
+.productImg {
+  margin: 1rem;
+  flex: 0.6;
+}
+
+.productImg img {
+  width: 100%;
+}
+
+.productInfo {
+  margin: 1rem;
+  flex: 0.4;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.productQuantity {
+  width: 10%;
+  margin: 1rem;
+  background: #fff;
+  height: fit-content;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.quantityInfo {
+  padding: 1rem;
+  background: marketWhite;
+  font-weight: bold;
+}
+
+.titleMain {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.titleSub {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 1.1em;
+  color: #999;
+}
+
+.priceSub,
+.totalSub {
+  font-size: 1em;
+  font-weight: bold;
+  width: 400px;
+}
+
+.info_basket{
+  display: inline-block;
+  margin-top: 4rem;
+  width: 180px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #fff;
+  color: marketTeamLightOrange;
+  border: 2px solid marketTeamLightOrange;
+  border-radius: 18px;
+}
+
+.info_basket:hover{
+  background-color: marketTeamYellow;
+  color: marketWhite;
+  transition: 1s;
+}
+
+.btQuantity {
+  background-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.inputQuantity {
+  width: 60px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+}
+
+.totalMain {
+  font-size: 1.1em;
+  font-weight: bold;
+}

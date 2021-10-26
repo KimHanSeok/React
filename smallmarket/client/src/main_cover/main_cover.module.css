@@ -1,0 +1,120 @@
+@value marketWhite, marketTeamOrange from '../common/colors.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.logoTitle {
+  width: 5em;
+  cursor: pointer;
+  color: marketWhite;
+  font-size: 2.0rem;
+  cursor: pointer; 
+}
+
+.shop {
+  width: 2em;
+  cursor: pointer;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+  padding-right: 0.8rem;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+nav ul li a {
+  color: marketWhite;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url(../common/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+  position: relative;
+}
+
+.textBox {
+  color: marketWhite;
+  position: absolute;
+  bottom: 8%;
+}
+
+.textBox p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textBox h1 {
+  font-size: 10rem;
+  line-height: 150px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 4px marketTeamOrange;
+  background: url(../common/img/backLogo.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+.textBox h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textBox .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.1em;
+}
+
+.textBox a {
+  color: marketWhite;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid marketWhite;
+  display: flex;
+  align-items: center;
+}
+
+.textBox a:hover {
+  background-color: marketTeamOrange;
+  transition: 2s;
+}
+
+.textBox a span {
+  font-size: 1.8rem;
+  margin-left: 0.6em;
+  line-height: 12px;
+}

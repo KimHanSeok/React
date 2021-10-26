@@ -1,0 +1,76 @@
+@value marketWhite, marketBlack, marketTeamOrange, marketTeamLightOrange from '../../common/colors.css';
+
+.itemBox {
+    width: 350px;
+    display: flex;
+    padding: 1rem;
+    background: marketWhite;
+    margin: 8px auto;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10%;
+    /* border: 2px solid marketTeamOrange; */
+    transition: transform 250ms ease-in;
+    margin: 0.8rem;
+}
+
+.itemBox:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.name {
+    margin-top: 0.3em;
+    text-transform: uppercase;
+}
+
+.imgSet {
+    height: 170px;
+    border-radius: 10%;
+}
+
+.itemPrice {
+    margin-top: 0.3em;
+    font-size: 0.8rem;
+}
+
+.itemQuantity {
+    margin-top: 0.3em;
+    font-size: 0.8rem;
+}
+
+.description {
+    margin-top: 0.3em;
+    font-size: 0.9rem;
+}
+
+.button {
+    margin-top: 1em;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.2em;
+    font-weight: bold;
+    color: marketTeamOrange;
+    border: 2px solid marketBlack;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: marketWhite;
+    background-color: marketTeamLightOrange;
+    transition: 2s;
+}
+
+.button > a {
+    text-decoration: none;
+    color: marketTeamLightOrange;
+}
+
+.button > a:hover {
+    color: marketWhite;
+    transition: 2s;
+}

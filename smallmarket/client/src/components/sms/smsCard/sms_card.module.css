@@ -1,0 +1,63 @@
+@value marketTeamOrange from '../../../common/colors.css';
+
+.sms {
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  margin-bottom: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sms:hover {
+  box-shadow: 0 8px 16px 0;
+}
+
+.smsContainer {
+  display: flex;
+  width: 100%;
+}
+
+.smsBody {
+  margin: 0px 8px;
+  width: 100%;
+}
+
+.smsName {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.smsUsername,
+.smsDate {
+  font-size: 0.7rem;
+  margin-left: 4px;
+  color: marketTeamOrange;
+  font-weight: bold;
+}
+
+.smsUsername {
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.smsUsername:hover {
+  background: marketTeamOrange;
+}
+
+.smsDate {
+  color: marketTeamOrange;
+}
+
+.smsAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.smsActionButton {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: marketTeamOrange;
+  transition: transform 300ms;
+}

@@ -1,0 +1,64 @@
+@value marketTeamOrange, marketTeamLightOrange, marketBlack, marketShadow, marketLightGrey from '../../common/colors.css';
+
+.navbar {
+  width: 100%;
+  height: 6rem;
+  align-items: center;
+  display: flex;
+  padding: 1.3em;
+  margin-bottom: 2em;
+  z-index: 50;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navbarList {
+  text-align: center;
+  list-style: none;
+  align-items: center;
+  padding-left: 1.1em;
+}
+
+.navbarList > li {
+  display: inline-block;
+  margin: 1rem 3rem;
+}
+
+.navbarList > li > a {
+  text-decoration: none;
+  align-items: center;
+  font-size: 1em;
+  color: marketBlack;
+}
+
+.navbarList > li > a:hover {
+  color: marketTeamOrange;
+  transition: 0.5s;
+}
+
+.navbar > li > a > span {
+  display: flex;
+  align-items: center;
+}
+
+.titleCart:hover {
+  cursor: pointer;
+  color: marketTeamOrange;
+  transition: 0.5s;
+}
+
+.titleLogout:hover {
+  cursor: pointer;
+  color: marketTeamOrange;
+  transition:0.5s;
+}
+
+.logo {
+  width: 120px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+@value marketBlack, marketWhite, marketTeamOrange, marketTeamLightOrange, marketShadow from '../../common/colors.css';
+
+.item {
+  width: 100%;
+  padding: 1rem;
+  display: grid ;
+  margin-bottom: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.3rem;
+  place-items: center;
+  border-radius: 3em;
+}
+
+.image {
+  width: 6em;
+  height: 6em;
+  border-radius: 30%;
+}
+
+.content {
+  text-decoration: none;
+  color: makerBlack;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.content:hover {
+  cursor: pointer;
+  color: marketTeamOrange;
+  transition: 0.5s;
+}
+
+.select {
+  padding: 0.4em 0.8em;
+}
+
+.delete {
+  color : marketTeamOrange;
+  font-size: 1.2em;
+  padding: 0.4em 0.8em;
+  background: transparent;
+  border: 1px solid marketTeamOrange;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.delete:hover,
+.delete:focus,
+.delete:active {
+  background: marketTeamOrange;
+  color: marketWhite;
+  transform: scale(1.2);
+}
+
+@media (max-width: 500px) {
+  .content {
+    font-size: 0.6rem;
+  }
+
+  .select,
+  .delete {
+    padding: 5px 8px;
+  }
+
+  .price {
+    font-size: 0.6rem;
+  }
+}
+
+@meda (max-width: 700px) {
+  .item {
+    font-size: 0.8rem;
+  }
+  
+  .select,
+  .delete {
+    padding: 8px 13px;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+}

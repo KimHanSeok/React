@@ -1,0 +1,166 @@
+@value marketWhite, marketBlack, marketInput, marketTeamOrange, marketTeamLightOrange from '../../common/colors.css';
+/* 공통 속성 */
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+/* input type 화살표 없애기 */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* pay.jsx */
+.pay_wrap {
+  width: 1050px;
+  margin: 0 auto;
+}
+.pay_title h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333;
+  line-height: 35px;
+}
+.pay_order_title {
+  font-size: 20px;
+  color: #333;
+  line-height: 29px;
+  clear: both;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.pay_order_container {
+  display: flex;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 20px;
+  padding-top: 25px;
+}
+.pay_order_items:nth-child(1) {
+  text-align: center;
+  flex-grow: 1;
+}
+.pay_order_items:nth-child(2) {
+  margin-top: 28px;
+  flex-grow: 4;
+}
+.pay_order_items:nth-child(3) {
+  flex-grow: 1;
+  margin-top: 28px;
+}
+.pay_order_items:nth-child(4) {
+  flex-grow: 1;
+  margin-top: 28px;
+}
+
+.pay_order_items img {
+  width: 60px;
+  height: 78px;
+}
+.purchaser_order {
+  margin-top: 100px;
+}
+.info_container {
+  width: 1050px;
+  height: 64px;
+}
+.info_name {
+  display: inline-block;
+  width: 190px;
+  height: 64px;
+  font-size: 14px;
+}
+.info_input {
+  width: 332px;
+  height: 44px;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+.pay_info_wrap {
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.delivery_wrap {
+  margin-top: 100px;
+}
+.delivery_zone_code {
+  position: relative;
+  width: 300px;
+  height: 34px;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+.delivery_full_address {
+  position: relative;
+  width: 300px;
+  height: 34px;
+  padding: 10px 14px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+.delivery_other_address {
+  top: 0;
+  left: 300px;
+  position: absolute;
+  width: 300px;
+  height: 34px;
+  padding: 10px 14px;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+.btn_delivery_register_wrap {
+  position: absolute;
+  top: 0;
+  left: 305px;
+}
+.btn_delivery_register {
+  width: 150px;
+  height: 34px;
+}
+.btn_delivery_register span {
+  color: #333;
+  font-size: 14px;
+}
+.delivery_info_wrap {
+  border-bottom: 1px solid #f4f4f4;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.payment_wrap {
+  text-align: center;
+}
+.btn_payment {
+  width: 240px;
+  height: 56px;
+  margin: 40px auto 0;
+  border: 0 none;
+  border-radius: 3px;
+  /* 팀컬러로 변경 */
+  background-color: marketTeamLightOrange;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}

@@ -1,0 +1,97 @@
+@value marketWhite, marketBlack, marketInput, marketTeamOrange, marketTeamLightOrange from '../../common/colors.css';
+button {
+  cursor: pointer;
+}
+/* Login.js */
+.login_logo {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo_text {
+  width: 244px;
+  height: 100px;
+}
+.loginWrap {
+  /* 넓이 해결하기 */
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.loginIndex {
+  width: 450px;
+  /* login을 감싸는 것 */
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px 20px 20px 20px;
+  /* 개체를 가운데 정렬하기 위한 변환 */
+  transform: translate(-50%, -50%);
+}
+.loginIndex > h3 {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.idInput {
+  outline: none;
+  display: block;
+  position: relative;
+  height: 54px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 80%;
+}
+.id_icons {
+  position: absolute;
+  top: 100px;
+  left: 65px;
+}
+.pwInput {
+  /* input값을 클릭할 때 outline을 지운다. */
+  outline: none;
+  display: block;
+  position: relative;
+  height: 54px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 80%;
+  /* height: 50px; */
+}
+.pw_icons {
+  position: absolute;
+  top: 150px;
+  left: 65px;
+}
+.btLogin {
+  margin-top: 1rem;
+  margin-left: 30px;
+  width: 80%;
+  height: 35px;
+  color: #fff;
+  background-color: marketTeamLightOrange;
+  border: 0;
+  border-radius: 6px;
+}
+.btReg {
+  /* margin-top: 1rem; */
+  margin-left: 30px;
+  margin-top: 5px;
+  width: 80%;
+  height: 35px;
+  background-color: #fff;
+  color: marketTeamLightOrange;
+  border: 1px solid marketTeamLightOrange;
+  border-radius: 6px;
+}

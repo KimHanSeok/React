@@ -1,0 +1,72 @@
+@value marketWhite, marketBlack, marketInput, marketGrey, marketTeamOrange, marketTeamLightOrange from '../../common/colors.css';
+
+.container {
+    max-width: 1500px;
+    margin: 1rem auto;
+}
+
+.shopBox{
+    font-size: 30px;
+    font-weight:500;
+    text-align: center;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.shopTop{
+    height: 80px;
+}
+
+.search {
+    position: absolute;
+    right: 108px;
+    top: 120px;
+    width: 242px;
+}
+
+.shopSearchBox {
+    width: 242px;
+    height: 36px;
+    padding: 0 60px 0 14px;
+    border: 1px solid marketInput;
+    border-radius: 18px;
+    background-color: marketInput;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: marketGrey;
+    line-height: 16px;
+    outline: none;
+}
+
+.t{
+    width: 100%;
+    text-align: center;
+}
+
+.shopContent{
+    width: 1350px;
+    margin: 0 auto;
+    
+}
+
+.orderSort > button{
+    border: 0;
+    outline: 0;
+    float: right;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.moveTop{
+    font-size: 20px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.item {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

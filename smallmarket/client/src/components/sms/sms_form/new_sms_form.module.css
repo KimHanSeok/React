@@ -1,0 +1,29 @@
+@value marketTeamOrange, marketBlack, marketGrey, marketWhite from '../../../common/colors.css';
+
+.smsForm {
+  display: flex;
+  width: 100%;
+  padding: 4px 16px;
+  background-color: marketWhite;
+}
+
+.smsInput {
+  width: 100%;
+  margin-right: 4px;
+}
+
+.smsButton {
+  font-size: 1.2rem;
+  background: marketTeamOrange;
+  font-weight: bold;
+  padding: 4px;
+}
+
+/* button {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  color: marketWhite;
+  cursor: pointer;
+} */

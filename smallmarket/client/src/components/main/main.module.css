@@ -1,0 +1,111 @@
+@value marketWhite, marketTeamYellow, marketBlue, marketTeamOrange from '../../common/colors.css';
+
+img:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.mainImg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 0.78;
+}
+
+.title {
+  position: absolute;
+  color: marketWhite;
+  top: 10%;
+  left: 32%;
+  font-size: 5em;
+  z-index: 10;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 43%;
+  top: 50%;
+  border: 2px solid marketWhite;
+  border-radius: 15px;
+  color: marketWhite;
+  font-weight: bold;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.2em;
+  z-index: 50;
+}
+
+.button:hover {
+  color: marketTeamOrange;
+  border: 2px solid marketTeamOrange;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.indexWrap {
+  width: 100%;
+}
+
+.indexContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.indexItems {
+  flex-direction: row;
+  margin: 3rem;
+}
+
+.indexItems > h3 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.indexItems > h5 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.itemColImg {
+  width: 400px;
+}
+
+.sectionContainer {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.sectionCol {
+  flex: 1;
+  flex-direction: column;
+}
+
+.sectionCol > h3 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sectionCol > h5 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.sectionImg {
+  width: 90%;
+}

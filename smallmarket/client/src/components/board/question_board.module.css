@@ -1,0 +1,40 @@
+@value marketWhite, marketBlack, marketShadow, marketTeamYellow, marketTeamOrange, marketTeamLightOrange from '../../common/colors.css';
+
+.post {
+  border: 2px solid marketBlack;
+  color: marketBlack;
+  border-radius: 10%;
+  background: transparent;
+  box-shadow: 10px 5px 5px marketShadow;
+  transition: transform 250ms ease-in;
+}
+
+.post:hover {
+  cursor: pointer;
+  background-color: marketTeamYellow;
+  transition: 2s;
+  transform: scale(1.04);
+}
+
+.title {
+  color: marketBlack;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid marketBlack;
+}
+
+.author {
+  margin-left: 1.1rem;
+  display: flex;
+  font-size: 0.6em;
+  border-bottom: 1px solid marketBlack;
+}
+
+.body {
+  height: 80%;
+  padding: 11px;
+  border-radius: 20px;
+  color: marketBlack;
+}

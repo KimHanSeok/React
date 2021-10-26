@@ -1,0 +1,33 @@
+@value marketWhite, marketTeamOrange, marketTeamLightOrange, marketBlack, marketShadow, marketLightGrey from '../../common/colors.css';
+
+.footerContainer {
+  width: 100%;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.footerContainer:hover {
+  cursor: pointer;
+}
+
+.footerRow {
+  color: marketBlack;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerCol {
+  color : marketBlack;
+  padding: 2rem 7rem 3rem 7rem;
+  box-sizing : border-box;
+  text-align: left;
+}
+
+.content {
+  color: marketBlack;
+  font-style: noraml;
+  font-size: 0.8em;
+}

@@ -1,0 +1,31 @@
+@value marketTeamOrange from '../../common/colors.css';
+
+.sms {
+  height: 100%;
+  overflow-y: auto;
+  color: var(--color-black);
+  padding: 16px;
+  list-style: none;
+  /* Firefox */
+  scrollbar-width: 6px;
+  scrollbar-color: darkgray;
+  scrollbar-face-color: marketTeamOrange;
+}
+
+.sms::-webkit-scrollbar {
+  /* Safari and Chrome */
+  background-color: darkgray;
+  width: 6px;
+}
+
+.sms::-webkit-scrollbar-thumb {
+  /* Safari and Chrome */
+  background-color: darkgray;
+}
+
+.smsEmpty {
+  font-size: 2rem;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+}

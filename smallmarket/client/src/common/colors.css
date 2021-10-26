@@ -1,0 +1,18 @@
+@value marketBlack: black;
+@value marketWhite: white;
+@value marketLightGrey: #e8e7e6;
+@value marketLightPink: #ffeae8;
+@value marketGrey: #666;
+@value marketGreen: #385461;
+@value marketPink: pink;
+@value marketShadow: rgba(217, 217, 217, 1);
+@value marketColorful: linear-gradient(166deg, rgba(237, 193, 211, 1) 0%,rgba(212, 149, 161, 1) 60%, rgba(162, 63, 63, 1) 100%, rgba(127, 188, 242, 1) 100%);
+@value marketWheat: wheat;
+@value marketInput: #f7f7f7;
+@value marketBlue: #0080ff;
+@value marketShadow: rgba(217, 217, 217, 1);
+
+/* our color */
+@value marketTeamOrange: rgb(255, 166, 0);
+@value marketTeamLightOrange: #FF7F50;
+@value marketTeamYellow: #ffd4b1;
